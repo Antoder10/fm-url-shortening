@@ -23,10 +23,10 @@ const DisplayShortenedUrl = ({urlToBeShorten, shortenedUrl, setShowSearchBar}) =
   return (
     <div
       ref={shortUrl}
-      className="flex flex-col w-full rounded-md items-center bg-white shadow-md px-4 py-6 mx-2 mb-8 sm:w-3/4 sm:flex-row sm:items-center sm:justify-around"
+      className="flex flex-col w-full rounded-md items-center bg-white shadow-md px-4 py-6 mx-2 mb-8 sm:w-3/4 sm:grid sm:grid-cols-4 sm:gap-x-3"
     >
       <span className="break-all text-black border-b-2 border-cyan pb-4 mb-4 sm:border-none sm:mb-0 sm:pb-0">{urlToBeShorten}</span>
-      <span className="break-all text-cyan mb-4 sm:mb-0">{shortenedUrl}</span>
+      <span className="break-all text-cyan mb-4 sm:mb-0 sm:text-center">{shortenedUrl}</span>
       <button
         className="bg-cyan rounded-md py-3 text-white font-bold w-full mb-4 sm:w-auto sm:px-4 sm:mb-0"
         onClick={() => copyToClipboard()}
