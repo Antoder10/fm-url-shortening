@@ -18,7 +18,7 @@ This is a solution to the [Shortly URL shortening API Challenge challenge on Fro
 
 ### Links
 
-- Live Site URL: (https://zen-neumann-7ccb18.netlify.app/)
+- Live Site URL: https://zen-neumann-7ccb18.netlify.app/
 
 ## My process
 
